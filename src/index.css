@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-image: url("./canyon.jpg");
+    background-position: center;
+    object-fit: contain;
+    color: white;  
+    align-items: center;
+    text-align: center;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.todoapp{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:36%;
+    height:50%;
+    margin-top: 40%;
+    margin:auto;
+}
+input[type='text']{
+    padding: 3%;
+    font-family: inherit;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    width:50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 3%;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: grey;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width:80%;
+    margin-inline:auto;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    border-radius: 7px;
+}
+
+.btn-small{
+    background-color:grey;
+    margin-block: 5%;
+    border-radius: 7px;
 }
